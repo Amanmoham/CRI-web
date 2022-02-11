@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  Roboto, sans-serif;
+}
+
+/*TOP HEADER CSS*/
+
+header.top-header{
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url("../image/imagepro.jpg") ;
+    background-size: cover;
+}
+header.top-header nav ul li{
+    float: left;
+    list-style: none;
+    font-size: 23px;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin: 5px;
+}
+header.top-header nav ul li a{
+    text-decoration: none; 
+    color: azure;
+    margin: 5px;
+    display: inline-block;
+}
+header.top-header nav ul li.right{
+    float: right;
+}
+nav ul::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+header.top-header nav ul li a.button{
+    background-color: azure;
+    color: black;
+    padding: 10px;
+    border-radius: 25px;
+}
+header.top-header nav ul li.dropDownIcon{
+    display: none;
+}
+header.top-header nav ul li a:hover{
+    color: lightseagreen;
+    background-color: rgba(0,0,0,0.5);
+}
+div.container{
+    color:whitesmoke;
+    text-align: center;
+    margin-top: 150px;
+}
+div.container h1{
+    font-size: 50px;
+}
+div.container p.content{
+    color:rgb(28, 240, 9);
+    font-size: 25px;
+}
+div.container a.button{
+    display: inline-block;
+    text-decoration: none;
+    background-color: azure;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+div.container a.button:hover{
+    color: lightseagreen;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/*About Me CSS*/
+
+section.about-me{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+
+}
+section.about-me div.about-container div.matter,section.about-me div.about-container div.vector-img{
+    width:50%;
+    float: left;
+    font-size: 25px;
+}
+div.about-container::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+div.parts a:hover{
+    color:tomato;
+}
+div.about-container div.matter{
+    margin:15px;
+    text-align: left;
+}
+div.matter p{
+    padding: 10px;
+}
+div.matter a.button{
+    display: inline-block;
+    text-decoration: none;
+    background-color:salmon;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+div.matter a.button:hover{
+    color:rgb(255, 9, 83);
+    background-color: rgba(0,0,0,0.1);
+}
+div.another-one div.parts{
+    width: 25%;
+    float: left;
+}
+.sub-heading{
+    color:  rgb(240, 9, 240) ;
+    text-align: center;
+}
+div.another-one::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+div.parts{
+    font-size: 25px;
+
+}
+
+section.contact{
+    margin-top: 15px;
+    text-align: center;
+
+}
+/*Why me CSS*/
+
+section.why-me{
+    text-align: center;
+    margin: 20px;
+}
+
+.why-me .why-container .vector-art,.why-me .why-container .why-me-matter {
+    width: 50%;
+    float: left;
+}
+
+.why-container::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.why-container{
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 20px;
+    text-align: left;
+}
+
+.why-me-matter{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.why-me-matter a.button{
+    background-color:brown;
+    color: black;
+    padding: 15px;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.why-me-matter a:hover{
+    color:darkviolet;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/*Contact Me CSS*/
+
+.contact-me{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    background-color:chocolate;
+    
+}
+
+.contact-img, .contact{
+    width: 50%;
+    float: left;
+    border-radius: 20%;
+}
+
+section.contact-me div.contact-container div.matter,section.contact-me div.contact-container div.vector-img{
+    width:50%;
+    float: left;
+    font-size: 25px;
+}
+
+.contact-container::after{
+    display: block;
+    clear: both;
+    content: "";
+    
+}
+.contact{
+    margin-top: 50px;
+    text-align: left;
+    font-size: 25px;
+    background-color: lightcoral;
+}
+.contact p{
+    margin: 90px;
+    font-size: 26px;
+    text-align: left;
+    padding: 0 ;
+}
+.contact p ul li{
+    text-align: center;
+
+}
+.contact p a:hover{
+    color:darkred;
+    background-color: lightcoral;
+}
+.contact-img img{
+    border: solid crimson;
+    border-radius: 2%; 
+    
+   
