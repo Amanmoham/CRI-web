@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/Trial.css">
+</head>
+<body>
+    <header class="top-header">
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li class="dropDownIcon"><a href="javascript:void(0)" oneclick="dropDown()">&#9776</a></li>
+                <li><a href="./project.html" target="_blank">Projects</a></li>
+                <li><a href="https://github.com/Mohammedaman" target="_blank">Github</a></li>
+                <li><a href="myresume.pdf">Resume</a></li>
+                <li class="right"><a class="button" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+            <div class="container" id="hide">
+                <h1>I am Mohd Aman</h1>
+                <p class="content">Front-End Developer | C programming | Electronics</p>
+                <a href="" class="button">My Portfolio</a>
+            </div>
+    </header>
+    
+    <section class="about-me">
+        <h2>About Me : </h2>
+        <div class="about-container">
+            <div class="matter">
+                <p>
+                    I am an enthusiastic frontend web developer and an electronics engineer.<br>
+                    Thats an unexpected combination thats why I am rare.<br>
+                    I have worked as a web developer for various organsations and as part of my core I like to build real-time projects which solves real-life problems.<br>
+                    Do check out my work.
+                </p>
+                <a href="" class="button">Portfolio!</a>
+            </div>
+            <div class="Vector-img">
+            <img src="./image/aboutme.png"  alt="">
+            </div></div>
+
+        <br>
+        <div class="another-one">
+            <div class="parts">
+                <img src="./image/academics.png" width="200" height="200" alt="">
+                <p class="sub-heading">Academics</p> <br>
+                <p class="content">Want to know about my academics and performance.</p>
+                <a href="" class="link">See more...</a>
+            </div>
+            <div class="parts">
+                <img src="./image/certificates.png" width="200" height="200" alt="">
+                <p class="sub-heading">Certifications</p> <br>
+                <p class="content">You can scrutinize my Certifications from various Learning platforms.</p>
+                <a href="" class="link">See more...</a>
+            </div>
+            <div class="parts">
+                <img src="./image/organization.png" width="200" height="200" alt="">
+                <p class="sub-heading">Organizations</p> <br>
+                <p class="content">Here is the list of Organizations for which i have worked.</p>
+                <a href="" class="link">See more...</a>
+            </div>
+            <div class="parts">
+                <img src="./image/project.png" width="202" height="202" alt="">
+                <p class="sub-heading">Projects</p> <br>
+                <p class="content">As I am an Electronics and  communication Engineer, Here are my projects. </p>
+                <a href="./project.html" class="link">See more...</a>
+            </div>
+        </div>
+        
+        <br>
+        <hr>
+    </section>
+
+    <section class="why-me">
+        <h2>Why me?</h2>
+        <div class="why-container">
+            <div class="vector-art"><img src="./image/whyme.png" width="300" height="300" alt=""></div>
+            <div class="why-me-matter">
+                <p>
+                    You can hire me because of my skills.<br>
+                    I knew C, C++, Java, HTML, CCS. <br>
+                    I learnt web development. <br>
+                    Have a look on my Github and Projects.
+                </p>
+                <a href="https://github.com/Mohammedaman" target="_blank" class="button">Github</a>
+                <a href="./project.html" target="_blank" class="button">Projects</a>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="contact-me" id="contact">
+        
+        <h2>Contact Me :
+        </h2>
+        <br>
+        <br>
+        <div class="contact-container">
+            <div class="contact-img">
+                <img src="./image/contactme.jpg" width="400px" alt="">
+        </div>
+            <div class="contact">
+                <b><p>Email-ID : <a href="mohammedaman3263@gmail.com">mohammedaman3263@gmail.com</a><br>
+                Contact Number : <a href="">+91 9014985782 </a><br>
+                Linkedin : <a href="https://in.linkedin.com/in/mohammed-aman-4077b5201" target="_blank">https://in.linkedin.com/in/mohammed-aman-4077b5201</a><br>
+                Github : <a href="https://github.com/mohammedaman" target="_blank">https://github.com/mohammedaman</a></p><br></b>
+            </div>
+        </div>
+        <br>
+        
+
+    </section>
+
+      <script>
+        function dropDown() {
+            var x = document.getElementById("dropdownClick");
+            if(x.className === "topnav"){
+                x.className += " responsive";
+                console.log("Navbar is Open");
+            }
+            else{
+                x.className = "topnav";
+                console.log("Navbar is Closed");
+            }
+        }
+    </script>  
+
+</body>
+</html>
